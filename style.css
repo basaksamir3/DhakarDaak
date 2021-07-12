@@ -1,0 +1,90 @@
+body{
+   background-color:antiquewhite;
+}
+.navbar{
+    padding: auto;
+    
+}
+/* #loginFrom{
+   padding:50px;
+   background-image:url("./delivery-service-company-with-man-wearing-masks-bring-box-thumbs-up-delivery-courier-send-package-riding-motorcycle-wearing-helmet-with-city-landscape-as-background_142963-242.jpg");
+   background-repeat: no-repeat;
+   background-position:center;
+   background-size: cover;
+   
+} */
+.submit-from{
+    text-align:center;
+    padding:50px;
+}
+.submit-area{
+    width: 300px;
+    margin: 50px ;
+    border-radius: 10px ;
+    box-shadow: 20px 20px 30px black;
+    padding:40px;
+    
+}
+#transction-area{
+    display:none;
+}
+.status{
+    margin: 0 20px;
+    padding:20px;
+    border-radius: 10px ;
+    text-align:center;
+    
+}
+.Deposit{
+    background-color: greenyellow;
+    
+}
+.Withdraw{
+    background-color: lightsalmon;
+}
+.Balance{
+    background-color: khaki;
+}
+.area{
+    margin-top: 50px;
+    border-radius: 5px;
+    padding: 40px;
+    box-shadow: 5px 5px 20px gray;
+
+
+}
+.amount-area{
+    margin-top: 50px;
+}
+
+.navbar{
+    margin-top: 0px;
+}
+
+.row{
+    /* padding:10px 10px; */
+    margin: auto;
+    
+    
+}
+.card{
+    padding:0px 5px;
+    margin:10px;
+    box-shadow: 5px 5px 20px gray;
+    text-align:center;
+    background-color:antiquewhite;
+    
+}
+.Banner{
+    /* height: 300px; */
+    height:220px;
+    width: auto;
+    background-color:antiquewhite;
+    /* background-image: url(./img/Add\ a\ heading\ \(1\).jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color:green;
+    text-shadow: 3px;
+  
+}
