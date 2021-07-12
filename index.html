@@ -8,66 +8,127 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="shortcut icon" type="image/jpg" href="./img/logo.jpg"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     
 </head>
 <body> 
-    <nav class="navbar navbar-light bg-dark text-white">
+    <nav class="navbar navbar-light bg-dark text-white navbar navbar-expand-lg navbar-light bg-light ms-auto">
         <div class="container-fluid">
             <img src="./img/logo.jpg" alt="" width="30" height="24" class="d-inline-block align-text-top">
             
-           <a href="#contact">Contacts</a>
+           <a class="btn btn-outline-light nav-item" href="#contact">Contacts</a>
         </div>
+        
     </nav>
-    <div class="Banner">
-        <br>
+
+    <!-- ===================navbar-section=================== -->
+    
+    <!-- ===banner-section================ -->
+    <div class="Banner" id="Home">
+      
+        <h1><b>Welcome</b></h1>
+        <h2>TO</h2>
         <h1>Dhakar Daak</h1>
+        
         <marquee behavior="alternate">
-            <img src="./img/logo.jpg" width="250" height="108" alt="Delivery Man">
-            </marquee>
-            
+            <img src="./img/Screenshot_4.png" width="250" height="108" alt="Delivery Man">
+        </marquee> 
+        <br>
         <marquee behavior="scroll" direction="right">A SuperFirst and Save Delivery Service</marquee>
-        <p></p>
+        
      
 
     </div>
       
-
     <div class="row">
             <div class="col-sm-6">
                 <div class="card">
                     <div class="card-body">
-                    <h5 class="card-title">Create Mercent Account</h5>
-                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <h2 class="card-title">Create Mercent Account</h2>
+                    <p class="card-text">Submit your Information</p>
+                    <a href="https://forms.gle/cNoGwwc2DrNQzuxC8" class="btn btn-primary">Go somewhere</a>
                     </div>
                 </div>
             </div>
             <div class="col-sm-6">
                 <div class="card">
                     <div class="card-body">
-                    <h5 class="card-title">Create Order</h5>
-                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <h2 class="card-title">PickUp Request</h2>
+                    <p class="card-text">Submit PickUp Information.</p>
+                    <a href="https://forms.gle/nxhamRLcD7UEco7v9" class="btn btn-primary">Go somewhere</a>
                     </div>
                 </div>
             </div>
     </div>
-
+<!-- ===============service-section=================== -->
+<div class="services pd" id="Services">
+    <div class="container">
+        <h3 class="title">Services</h3>
+        <div class="row text-center">
+            <div class="col-md-3">
+                <div class="square"><i class="fas fa-shipping-fast"></i></div>
+                <div class="serv">
+                    <h5>E-commerce Delivery</h5>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="serv">
+                    <div class="square"><i class="fa fa-motorcycle" aria-hidden="true"></i></div>
+                    <h5>Pick and Drop</h5>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="square"><i class="fas fa-warehouse"></i></i></div>
+                <div class="serv">
+                    <h5>Warehousing</h5>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="square"><i class="fal fa-box-full"></i></i></div>
+                <div class="serv">
+                    <h5>Packaging</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- =======================pricing-table================== -->
+<table class="table table-bordered" id="Charge">
+    
+    <thead>
+        <h1 id="pricing-caption">See your delivery charge</h1>
+        <br>
+      <tr>
+        <th scope="col">Upto 1 kg</th>
+        <th scope="col">1 kg to 2 kg</th>
+        <th scope="col">2 kg to 3 kg</th>
+        <th scope="col">3 kg to 4 kg</th>
+        <th scope="col">4 kg to 5 kg</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">60</th>
+        <td>80</td>
+        <td>100</td>
+        <td>120</td>
+        <td>150</td>
+      </tr>
+    </tbody>
+  </table>
+<!-- =======================footer section================ -->
     <footer class="bg-dark text-center text-white" id="contact">
         <!-- Grid container -->
         <div class="container p-4 pb-0">
           <!-- Section: Social media -->
           <section class="mb-4">
             <!-- Facebook -->
-            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+            <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/dhakardaak/" role="button"
               ><i class="fab fa-facebook-f"></i
             ></a>
-      
-            <!-- Twitter -->
-            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-              ><i class="fab fa-twitter"></i
-            ></a>
-      
             <!-- Google -->
             <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
               ><i class="fab fa-google"></i
@@ -82,8 +143,9 @@
             <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
               ><i class="fab fa-linkedin-in"></i
             ></a>
-      
-            
+            <!-- ----phones--- -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+              ><i class="fas fa-phone-square"></i></a>
           </section>
           <!-- Section: Social media -->
         </div>
@@ -91,8 +153,13 @@
       
         <!-- Copyright -->
         <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-          © 2021 Copyright:
-          <a class="text-white" href="https://mdbootstrap.com/">DhakarDaak.com</a>
+            <a><i class="fas fa-phone-square">Hotline</i>: </i>01644973897</a>
+            <a class="text-white">E-mail: info@dhakardaak.com</a>
+            <br>
+            © 2021 Copyright:
+          <a class="text-white" >www.dhakardaak.com</a>
+          
+        
         </div>
         <!-- Copyright -->
       </footer>
